@@ -1,0 +1,4 @@
+services:
+#    don_sheridn_resume.example:
+#        class: DonSheridn\ResumeBundle\Example
+#        arguments: [@service_id, "plain_value", %parameter%]

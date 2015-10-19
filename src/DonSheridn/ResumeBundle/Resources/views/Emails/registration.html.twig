@@ -1,0 +1,28 @@
+{# app/Resources/views/Emails/registration.html.twig #}
+<h3> <b>{{ first_name }} {{ last_name }}</b> has sent you a message </h3>
+<br>
+<b>Subject:</b>             {{ subject }}
+<br><br>
+<b>Message Details:</b>     {{ message }}
+<br><br>
+<b>First Name:</b>          {{ first_name }}
+<br><br>
+<b>Last Name:</b>           {{ last_name }}
+<br><br>
+<b>Email Address:</b>       {{ email }}
+<br><br>
+<b>Phone Number:</b>        {{ phone }}
+<br><br>
+<b>State:</b>               {{ state }}
+<br><br>
+<b>Zip Code:</b>            {{ zip }}
+<br><br>
+
+
+{# example, assuming you have a route named "login" #}
+{#To login, go to: <a href="{{ url('login') }}">...</a>.#}
+
+{#Thanks!#}
+
+{# Makes an absolute URL to the /images/logo.png file #}
+{#<img src="{{ absolute_url(asset('images/logo.png')) }}"#}

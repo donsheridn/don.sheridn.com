@@ -1,0 +1,371 @@
+{% extends "::base.html.twig" %}
+
+    {% block body %}
+        <header>
+            <div class="dsLogo">
+                <a href="http://don.sheridn.com/app.php/resume" id="btnDSLogo"><img alt="DS Logo" id="btnDSLogoImage" src={{ asset("images/NewDSLogo3.jpg") }}
+                            ></a>
+            </div>
+        </header>
+
+        <section>
+
+            <div class="nav" id="image_rollovers">
+                <ul id="navlist">
+                    <li><a href="#" id="btnAboutMe"><img alt="About Me Button" src={{ asset( "images/buttons/regularbuttons/images/aboutme.jpg"  ) }}
+                            id={{ asset( "images/buttons/pinkbuttons/images/pinkaboutme.jpg"  ) }}></a></li>
+                    <li><a href="#" id="btnTechSkills"><img alt="Technical Skills Button" src={{ asset( "images/buttons/regularbuttons/images/technicalskills.jpg"  ) }}
+                            id={{ asset( "images/buttons/pinkbuttons/images/pinktechnicalskills.jpg"  ) }}></a><li>
+                    <li><a href="#" id="btnEmpHistory"><img alt="Employment History Button" src={{ asset( "images/buttons/regularbuttons/images/employmenthistory.jpg"  ) }}
+                            id={{ asset( "images/buttons/pinkbuttons/images/pinkemploymenthistory.jpg"  ) }}></a><li>
+                    <li><a href="#" id="btnEducation"><img alt="Education Button" src={{ asset( "images/buttons/regularbuttons/images/education.jpg"  ) }}
+                            id={{ asset( "images/buttons/pinkbuttons/images/pinkeducation.jpg"  ) }}></a><li>
+                    <li><a href="#" id="btnContactForm"><img alt="Contact Form Button" src={{ asset( "images/buttons/regularbuttons/images/contactform.jpg"  ) }}
+                            id={{ asset( "images/buttons/pinkbuttons/images/pinkcontactform.jpg"  ) }}></a><li>
+                </ul>
+            </div><!--div=nav-->
+
+            <div class="content">
+
+                <div class="mainContent">
+
+                    <br>
+                    <p><span><img alt="Thumbs Up Success Icon" class="contentlogos" src={{ asset( "images/Icons-Blue/thumbs-up.png"  ) }}  >
+                    <b>Contact Success! You've just sent me an email.</b></span> <br>
+                    <br>
+                    Thanks for your interest. I'll evaluate your request and contact you shortly.
+                    </p>
+
+                </div><!--MainContent-->
+
+                <div class="TechSkills">
+                    <div class="scroller">
+                        <br>
+                        <p><span><img alt="Technical Skills Icon" class="contentlogos" src={{ asset( "images/Icons-Blue/computer.png"  ) }}  >
+                                <b>Technical Skills</b></span> <br>
+                            <br>
+                        <p>1.	<strong>Linux</strong> ~ Ubuntu 15.04, Vagrant, ssh, git, iptables, ufw, crontab, rdiff,
+                            rsync, backuppc, software RAID, nfs, samba / centrify express, cifs, apparmor, psad / fwsnort,
+                            nmap, postfix, logwatch, tiger, rkhunter, chktoolkit. CentOS, FreeBSD, Solaris..</p>
+                        <p><br>
+                        </p>
+                        <p>2.	<strong>Apache</strong> ~ v2.4, vhosts, mod_php, php-fpm, mod_security, mod_evasive, mod_pagespeed,
+                            mod_rewrite, apache2-utils (.htpasswd), htaccess, mod_ssl / ssl certs / https. </p>
+                        <p><br>
+                        </p>
+                        <p>3.	<strong>MySql</strong> ~ v5.6, MySQL Workbench (Visual Explain), Percona Query Advisor + Toolkit,
+                            Mysqltuner, Slow Query Log, Mysqlshow, Mysqladmin, MyTop, Views, InnoDB, MyISAM, CRUD Operations. </p>
+                        <p><br>
+                        </p>
+                        <p>4.	<strong>PHP</strong> ~ v5.6, Symfony 2.7, Composer(Autoloading), OOP (SOLID, DRY, Inheritance,
+                            Encapsulation, Polymorphism, Reflection), PHPStorm 9, xDebug, Doctine, php hardening, phpsecinfo,
+                            OpCache, PDO (Prepared statements + Bound Parameters), Exceptions, RESTful Http API's
+                            (Google Custom Search, YouTube, Twitter, OAuth 2.0). Guzzle, PHPUnit. PSR Coding Standards.
+                            JSON, YAML. Annotations. </p>
+                        <p><br>
+                        </p>
+                        <p>5.	<strong>Front End</strong> ~ HTML5 and CSS3. Twitter Bootstrap. jQuery (Core, UI). </p>
+                        <p><br>
+                        </p>
+                        <p>6.	<strong>Platforms</strong> ~
+                        <p>
+                            {#<ul><li>#}
+                            - AWS ~ VPC, EC2, Route 53, RDS, AMI<br>
+                            - Virtualization Technology - Vmware ESXi / vSphere, Oracle VirtualBox, Illumnos SmartOS<br>
+                            - Linux (Ubuntu, CentOS, FreeBSD).<br>
+                            - Mac OS X, VMS, AS400.<br>
+                            - Windows Server 2008x64, 2008x32, 2003, and 2000.<br>
+                            - Windows 10, 8.1, 8, 7x64, 7x32, Vista, XP, 2000, 98, DOS.<br>
+                            - Solaris ~ zfs, samba / centrify express.<br>
+                            {#</ul>#}
+                        </p>
+                        </p>
+                        <p><br>
+                        </p>
+                        <p>7.	<strong>Digital Marketing / SEM / SEO </strong> ~ Google Webmaster Tools / Search Console, Google Analytics,
+                            Google Adwords (PPC) / Keyword Planner, Google AdSense, Google Alerts, SemRush, and Admall.com.
+                            On-Page Optimization, Keyword Research, Competitor Analysis, Backlinking, Digital Marketing Strategy,
+                            Conversion Optimization, Email Marketing, Behavioural Re-Targeting, KPI / Metrics.  </p>
+                        <p><br>
+                        </p>
+                        <p>8.	<strong>Networks</strong> ~ Nagios Network Monitoring, Nmap, Cobian Backup, Veeam Backup,
+                            Windows Server Backup, Crontab, Rdiff-backup, Rsync Backup.<br><br>
+                            <b>Office Configuration</b>: Vlanning using Cisco Switch, MikroTik VoIP Router and
+                            Untangle Router. AD Domain Controller and DNS Server.
+                            Apple Airport Extreme Wireless Router.<br><br>
+                            <b>Data Center configuration</b>: APC Rack switched PDU, Cisco Switch, Untangle Router,
+                            Active Directory Domain Controller and DNS Server, Solaris ZFS file server, Windows Terminal Server,
+                            Windows Application Server running Microsoft SQL Server, Dell Sonicwall VPN and OpenVPN.<br>
+                        </p>
+                        <p><br>
+                        </p>
+                        </p>
+
+
+                        <br>
+                        <p><span><img alt="Education Icon" class="contentlogos" src={{ asset( "images/Icons-Blue/Book.png"  ) }}  >
+                            <b>Education</b></span> <br>
+                            <br>
+                            1. <b>1999 ~ 2000</b> <strong>Post Graduate Diploma in Information Technology.</strong><br>
+                            National University of Ireland Maynooth. Maynooth, Ireland.
+                            <br>
+                            <br>
+                            2. <b>1995 ~ 1999</b> <strong>B.Sc. in Management.</strong> <br>
+                            Trinity College Dublin. Dublin, Ireland.
+                            <br>
+                            <br>
+                            3. <b>1995 ~ 1999</b> <strong>Advanced Diploma in Marketing Techniques.</strong> <br>
+                            Dublin Institute of Technology. Dublin, Ireland
+                            <br>
+                            <br>
+                            <b>MCSE Exams Completed:</b> <br><br>
+                            ~ 70-270 Implementing and Supporting Microsoft Windows XP Professional.<br>
+                            ~ 70-290 Managing and Maintaining a Microsoft Windows Server 2003 Environment.<br>
+                            <br>
+                            <br>
+                        </p>
+                    </div><!--Scroller-->
+                </div><!--TechSkills-->
+
+                <div class="EmpHistory">
+                    <div class="scroller">
+                        <br>
+                        <p><span><img alt="Employment History Icon" class="contentlogos" src={{ asset( "images/Icons-Blue/boxes-2.png"  ) }}  >
+                                <b>Employment History</b></span> <br>
+                            <br>
+                            <strong>IT Administrator / Web Developer:</strong><br>
+                            <b>May 13 ~ Present</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>San Diego, California.</b>
+                            <br><br>
+                            ~	Administering / Troubleshooting the computer systems and network for a medium sized
+                            company of 70 people with multiple office locations and numerous remote users.<br><br>
+                            ~   Linux and Windows virtual server administration.<br><br>
+                            ~   Refactoring and maintaining the company website.<br><br>
+                            ~   VoIP Phone System, Office 365 Email System, .Net / SQL Server IMS insurance application.
+                            <br>
+                            <br>
+                            <strong>IT Administrator / Systems Analyst:</strong><br>
+                            <b>Aug 07 ~ Aug 12</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>San Diego, California.</b>
+                            <br>
+                            <br>
+                            ~	Developing custom Financial Aid and Scholarship Applications in collaboration with Senior
+                            Financial Aid Counsellors and Management. Using PL/SQL packages, procedures, functions,
+                            triggers, views, constraints, and Oracle Forms.
+                            <br><br>
+                            ~	Coded PL/SQL interfaces using SQL loader to perform ETL from federal governmental
+                            agencies such as NSLDS National Student Loan Database to an Oracle 10g database, while
+                            ensuring data integrity and security of level 1 protected user data.
+                            <br><br>
+                            ~	Primary programmer responsible for CBRS Campus Billable and Receivable System, Fee
+                            Deferment processing, Waiver Subsidy processing, and NSLDS Quality Control and
+                            Transaction Monitoring systems. Improved data quality and refined data processes using
+                            query tuning to improve productivity, speed, and lower cost of maintenance.<br><br>
+                            ~   Drafting and implementation of detailed test schedules and debugging subsequent issues as
+                            part of department-wide quality control processing and reporting. Conducting comprehensive
+                            system tests and creating test data to ensure defect free software functionality, and usability.<br><br>
+                            ~   Responsible for Systems Administration, Network Security, and Desktop Support / Training.
+                            <br><br>
+                            <strong>Information Technology Analyst:</strong><br>
+                            <b>Oct 03 ~ July 07</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>San Diego, California.</b>
+                            <br>
+                            <br>
+                            ~   Oversaw all IT services essential for the operation of the School Of Nursing,
+                            troubleshooting many diverse topics (covering area’s such as Oracle applications,
+                            VAX mainframe technology, Windows and Mac Applications, Network Connectivity Issues,
+                            Web and Email Accounts, Servers, Wireless and Telecommunication issues, and Printing)
+                            while resolving problems on initial contact over 90% of the time.
+                            <br><br>
+                            ~   Taught all aspects of computer competency and developed online tutorials for propriety
+                            software and business applications to help new and experienced users become technology literate.
+                            Successfully transitioned faculty and staff from legacy to modern systems.
+                            <br>
+                            <br>
+                            <strong>EPOS Applications Analyst</strong><br>
+                            <b>October 02 ~ October 03</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Dublin, Ireland.</b>
+                            <br>
+                            <br>
+                            ~	Assisting Client Services in Project Management, Product Delivery, Client Relationship Management,
+                            and Change Control Management. Moving change controls through all stages of the resolution cycle
+                            from issue escalation to resolution delivery. Resolving data integrity issues
+                            and irregularities in reconciliation of data as they arise across a large distributed system in real time.<br>
+                            <br>
+                            ~	Client point of contact to liaise on project implementation and roll out of EPOS
+                            and wholesale inventory systems. Investigating and troubleshooting application problems
+                            and working to achieve timely resolution and best of breed functionality for the Head Office,
+                            and Point of Sale on a daily basis. While providing support across the entire company product,
+                            ranging from Accounting Interfaces, Purchasing, Cash Management, Stock Reconciliation and Reporting,
+                            to POS and Sales Order Processing.<br>
+                            <br>
+                            <strong>Worldwide Purchasing Application Analyst:</strong><br>
+                            <b>September 00 ~ September 02</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Navan, Ireland.</b>
+                            <br>
+                            <br>
+                            ~	Developing worldwide purchasing applications used to enable all stages of the purchasing supply chain
+                            for a multinational firm. Ensuring the smooth transition to updated systems while ensuring data integrity
+                            and minimum disruption of the business cycle.<br>
+                            <br>
+                            ~	Collaborating with purchasing professionals as part of an international team of programmers,
+                            business analysts, and project managers to determine key issues, requirements
+                            and deadlines on strategic purchasing projects.  <br>
+                            <br>
+                        </p>
+                    </div><!--Scroller-->
+                </div><!--EmpHistory-->
+
+                <div class="Portfolio">
+                    <br>
+                    <p><span><img alt="Education Icon" class="contentlogos" src={{ asset( "images/Icons-Blue/Book.png"  ) }}  >
+                            <b>Training Apps</b></span> <br>
+                        <br>
+                        This website <a rel="nofollow" href="http://don.sheridn.com/app.php/resume"target="_blank" >don.sheridn.com</a>
+                        is in fact a Symfony app that sends me an email with the information submitted through the contact
+                        form and writes all the details into a database.
+                        <br><br>
+                        Below is a site I currently maintain:
+                        <br>
+                        1.  <a rel="nofollow" href="http://www.aligngeneral.com/"
+                               target="_blank" >www.aligngeneral.com</a>
+                        <br><br>
+                        Below is a training app I worked on while reading through my PHP book.
+                        It uses a self signed cert for https so you will need to click through any errors
+                        that show in the browser:
+                        Use <b>admin@myguitarshop.com</b> and <b>seame</b> to logon.
+                        <br>
+                        2.  <a rel="nofollow" href="https://musicstore.sheridn.com/"
+                               target="_blank" >musicstore.sheridn.com</a>
+                        <br>
+                        <br>
+                        Below is a Symfony app I saw at a SDPHP presentation and got working:
+                        <br>
+                        3.  <a rel="nofollow" href="http://todo.sheridn.com/"
+                               target="_blank" >todo.sheridn.com</a>
+                        <br>
+                        <br>
+                        Below is the Symfony demo app which I managed to get working:
+                        <br>
+                        4.  <a rel="nofollow" href="http://symfony_demo.sheridn.com/"
+                               target="_blank" >symfony_demo.sheridn.com</a>
+                        <br>
+                        <br>
+                        Below is a simple OO FizzBuzz app with bootstrap.
+                        <br>
+                        5.  <a rel="nofollow" href="http://fizzbuzz.sheridn.com/"
+                               target="_blank" >fizzbuzz.sheridn.com</a>
+                        <br>
+                        <br>
+                        Below is static website I'm working on for a friend.
+                        <br>
+                        6.  <a rel="nofollow" href="http://www.europeantilecraftsmen.com/"
+                               target="_blank" >www.europeantilecraftsmen.com</a>
+                        <br>
+                        <br>
+                    </p>
+                </div><!--Education-->
+
+                <div class="ContactForm">
+                    <br>
+                    <p><span><img alt="Service Request Icon" class="contentlogos" src={{ asset( "images/Icons-Blue/Email.png"  ) }}  >
+                                <b>Contact Form</b></span><br><br>
+                    </p>
+                    <p>
+
+                        {% include 'DonSheridnResumeBundle:Default:form.html.twig' %}
+
+                    </p>
+
+                </div><!--ContactForm-->
+
+                <div class="AboutMe">
+                    <br>
+                    <p><span><img alt="About Me Icon" class="contentlogos" src={{ asset( "images/Icons-Blue/Information-circle.png"  ) }} >
+                            <b>About Me</b></span> <br>
+                        <br>
+                        Hey! I'm Don Sheridan and I'm a <strong>LAMP Stack Developer</strong>and
+                        <strong>Linux / Windows Administrator</strong>. I've over <strong>10 years</strong> of diverse experience working
+                        on Applications and Systems Administration.
+                        <br><br>
+                        I have at various points in the past held technology positions, in a large multinational,
+                        a small software company, SDSU, and USD. I have for the most part had to work independently,
+                        making me self-reliant, mostly self-trained, <strong>adept at problem solving</strong>
+                        and delivering <strong>creative solutions.</strong>
+                        <br><br>
+                        Most recently I've added web development <strong>(PHP, Symfony2, Apache2, MySQL, AWS, HTML5, CSS3, and jQuery)</strong>
+                        to my repertoire of skills.
+                        I have exceptional troubleshooting, excellent analytical ability, and clear and concise communication skills
+                        which I feel make me a highly useful and adaptable resource for any organization.
+                        <br>
+
+                    </p>
+                </div><!--AboutMe-->
+
+            </div>  <!--Content-->
+
+        </section>
+
+        <footer>
+            <div class="contactdetails">
+                <div id=btnPhoto>
+
+                    <a rel="nofollow" href="https://maps.google.com/maps?q=don.sheridn.com&hl=en-US&cid=15717528983362507129&gl=US&t=m&z=16&iwloc=A"
+                       target="_blank" ><img alt="googleloc" id="googleloc" src={{ asset( "images/Icons-Blue/googlemarkercropped.png"  ) }}></a>
+
+                    <a rel="nofollow" href="http://www.linkedin.com/pub/don-sheridan/59/22a/254" target="_blank"
+                       id="btnLinkedin"><img alt="linkedin" id="linkedin" src={{ asset( "images/Icons-Blue/linkedin-icon-cropped2.png"  ) }} ></a>
+
+                    <span><img  alt="skype" id="skype" src={{ asset( "images/Icons-Blue/Skype-icon.png") }}><a id="telnumber"
+                                                                                                               href="callto:8583365477" >( 858 ) 336 5477 </a></span>
+
+                </div><!--btnPhoto-->
+
+
+                <div id=btnTwitLoc>
+
+                    <a rel="nofollow" href="http://www.yelp.com/biz/don-sheridn-com-san-diego" target="_blank"
+                       id="btnYelp"><img alt="yelp" id="yelp" src={{ asset( "images/Icons-Blue/yelp-icon-cropped2.png"  ) }} ></a>
+
+                    <a rel="nofollow" href="https://twitter.com/DonSheridn" target="_blank"
+                       id="btnTwitter"><img alt="twitter" id="twitter" src={{ asset( "images/Icons-Blue/TwitterLogoTrans.png"  ) }} ></a>
+
+                    <a rel="nofollow" href="http://slides.com/donsheridn" target="_blank" id="sldonsheridn" >slides.com</a>
+
+                    <a rel="nofollow" href="http://www.slideshare.net/DonSheridan" target="_blank" id="shdonsheridn" >slideshare.net</a>
+
+                </div><!--btnTwitLoc-->
+
+
+                {#<a id="btnPrint" href={{ asset( "DonSheridanWebDeveloper.pdf"  ) }} ><img alt="Printable Resume Button"#}
+                {#src={{ asset( "images/buttons/regularbuttons/images/printableresume.jpg"  ) }}#}
+                {#id={{ asset( "images/buttons/pinkbuttons/images/pinkprintableresume.jpg"  ) }}></a>#}
+
+                {#$this->generateUrl('don_sheridn_resume_homepage1')#}
+                {#don_sheridn_resume_homepage2:#}
+                <a id="btnPrint" href="http://don.vagrant.com:8000/app_dev.php/printresume"  target="_blank" ><img alt="Printable Resume Button"
+                                                                                                                   src={{ asset( "images/buttons/regularbuttons/images/printableresume.jpg"  ) }}
+                                                                                                                   id={{ asset( "images/buttons/pinkbuttons/images/pinkprintableresume.jpg"  ) }}></a>
+
+
+                <a href="https://github.com/donsheridn" id="btnEmail">
+                    <img alt="GitHub" src={{ asset( "images/buttons/regularbuttons/images/github.jpg"  ) }}
+                    id={{ asset( "images/buttons/pinkbuttons/images/githubpink.jpg"  ) }}></a>
+            </div><!--ContactDetails-->
+        </footer>
+    {% endblock %}

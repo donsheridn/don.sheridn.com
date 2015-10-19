@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Experienced Applications Programmer with a strong background in custom development,
+                                          software optimization, and customer service." >
+        <meta name="googlebot" content="noindex, nofollow, nosnippet, noodp, noarchive, noimageindex" >
+        <meta name="robots" content="noindex, nofollow, nosnippet, noodp, noarchive, noimageindex, nocache, npydirnocache" >
+        <meta name="google-site-verification" content="..." />
+        <meta charset="UTF-8" />
+        <title>{% block title %}Don Sheridan LAMP Developer{% endblock %}</title>
+
+        {% block stylesheets %}
+            {#<link href="./styles/style.css" rel="stylesheet" type="text/css" />#}
+            <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+            <!-- jQuery UI style sheet reference. Smoothness is the theme used. -->
+            <!--<link href="css/smoothness/jquery-ui-1.8.23.custom.css" type="text/css" rel="stylesheet">-->
+            {#<link href="./styles/jquery.jscrollpane.css" rel="stylesheet" type="text/css" />#}
+            <link rel="stylesheet" href="{{ asset('css/jquery.jscrollpane.css') }}">
+        {% endblock %}
+
+        {#<link rel="shortcut icon" href="web/favicon.ico" />#}
+        <link rel="icon" href="{{ asset('favicon.ico') }}" />
+        {#<link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />#}
+
+
+    </head>
+    <body>
+        {% block body %}
+
+        {% endblock %}
+
+        {% block javascripts %}
+            <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+
+            <!--<script src="./scripts/jquery-1.5.2.min.js" type="text/javascript" charest="utf-8"></script>-->
+            <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+            <!--<script src="../scripts/jquery-ui-1.8.23.custom.min.js" type="text/javascript" charest="utf-8"></script>-->
+            <!--Below Google hosted version of jQuery UI minified version-->
+            <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
+
+            {#<script src="./scripts/jquery.easing.1.2.js" type="text/javascript" charest="utf-8"></script>#}
+            <script src="{{ asset('js/jquery.easing.1.2.js') }}"></script>
+
+            {#<script src="./scripts/jquery.color.js" type="text/javascript" charest="utf-8"></script>#}
+            <script src="{{ asset('js/jquery.color.js') }}"></script>
+
+            {#<script src="./scripts/jquery.jscrollpane.min.js" type="text/javascript" charest="utf-8"></script>#}
+            <script src="{{ asset('js/jquery.jscrollpane.min.js') }}"></script>
+
+            {#<script src="./scripts/jquery.mousewheel.js" type="text/javascript" charest="utf-8"></script>#}
+            <script src="{{ asset('js/jquery.mousewheel.js') }}"></script>
+
+            {#<script src="./scripts/mwheelIntent.js" type="text/javascript" charest="utf-8"></script>#}
+            <script src="{{ asset('js/mwheelIntent.js') }}"></script>
+
+            {#<script src="./scripts/jquery.validate.min.js"></script>#}
+            <script src="{{ asset('js/jquery.validate.min.js') }}"></script>
+
+            {#<script src="./scripts/additional-methods.min.js"></script>#}
+            <script src="{{ asset('js/additional-methods.min.js') }}"></script>
+
+            {#<script src="./scripts/ds.js" type="text/javascript" charest="utf-8"></script>#}
+            <script src="{{ asset('js/ds.js') }}"></script>
+
+            {#<script type="text/javascript">#}
+
+            {#var _gaq = _gaq || [];#}
+            {#_gaq.push(['_setAccount', 'UA-36649705-2']);#}
+            {#_gaq.push(['_setDomainName', 'sheridn.com']);#}
+            {#_gaq.push(['_setAllowLinker', true]);#}
+            {#_gaq.push(['_trackPageview']);#}
+
+            {#(function() {#}
+            {#var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;#}
+            {#ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';#}
+            {#var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);#}
+            {#})();#}
+
+            {#</script>#}
+        {% endblock %}
+
+    </body>
+</html>
+

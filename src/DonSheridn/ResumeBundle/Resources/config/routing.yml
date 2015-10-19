@@ -1,0 +1,11 @@
+don_sheridn_resume_homepage1:
+    path:     /resume
+    defaults: { _controller: DonSheridnResumeBundle:Default:index }
+
+don_sheridn_resume_homepage2:
+    path:     /printresume
+    defaults: { _controller: DonSheridnResumeBundle:Default:printresume }
+
+don_sheridn_resume_homepage3:
+    path:     /DonSheridanWebDeveloper.pdf
+    defaults: { _controller: DonSheridnResumeBundle:Default:printresume }

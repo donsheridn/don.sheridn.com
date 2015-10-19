@@ -1,0 +1,69 @@
+<fieldset>
+    <legend>Request Details</legend>
+
+{{ form_start(ourform) }}
+    {{ form_errors(ourform) }}
+
+<div class="member_form">
+    {{ form_label(ourform.subject) }}
+    {{ form_errors(ourform.subject) }}
+    {{ form_widget(ourform.subject) }}
+</div>
+
+<div class="member_form">
+    {{ form_label(ourform.message) }}
+    {{ form_errors(ourform.message) }}
+    {{ form_widget(ourform.message) }}
+</div>
+
+<div class="member_form">
+    {{ form_label(ourform.email) }}
+    {{ form_errors(ourform.email) }}
+    {{ form_widget(ourform.email) }}
+</div>
+
+<div class="member_form">
+    {{ form_label(ourform.first_name) }}
+    {{ form_errors(ourform.first_name) }}
+    {{ form_widget(ourform.first_name) }}
+</div>
+
+<div class="member_form">
+    {{ form_label(ourform.last_name) }}
+    {{ form_errors(ourform.last_name) }}
+    {{ form_widget(ourform.last_name) }}
+</div>
+
+<div class="member_form">
+    {{ form_label(ourform.state) }}
+    {{ form_errors(ourform.state) }}
+    {{ form_widget(ourform.state) }}
+</div>
+
+<div class="member_form">
+    {{ form_label(ourform.zip) }}
+    {{ form_errors(ourform.zip) }}
+    {{ form_widget(ourform.zip) }}
+</div>
+
+<div class="member_form">
+    {{ form_label(ourform.phone) }}
+    {{ form_errors(ourform.phone) }}
+    {{ form_widget(ourform.phone) }}
+</div>
+
+
+</fieldset>
+
+<fieldset id="buttons">
+    <legend>Submit Your Request</legend>
+    <label>&nbsp;</label>
+    <input type="submit" id="submit" value="Submit">
+    {#<input type="reset" id="reset" value="Reset"><br>#}
+</fieldset>
+
+
+
+    {#{{ form_row(ourform._token) }}   #}
+
+{{ form_end(ourform) }}
